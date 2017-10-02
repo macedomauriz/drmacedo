@@ -1,0 +1,330 @@
+#top {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.tri {
+  position: absolute;
+  left: 0;
+  height: 80%;
+}
+.tri2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80%;
+}
+.tri3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40%;
+}
+.tri4 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 40%;
+}
+.portrait {
+  padding-right: 4vw;
+  /**/
+}
+.portrait__img {
+  display: block;
+  height: 50vh;
+}
+.a-button-div {
+  padding: 30px 0 0 0;
+}
+.a-button {
+  padding: 10px 35px;
+  border: 1px solid grey;
+  text-decoration: none;
+  color: grey;
+  border-radius: 5px;
+}
+.a-button-div--call {
+  display: none;
+  padding: 0 0 30px 0;
+}
+.a-button--call {
+  padding: 10px 35px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.a-button--call:hover {
+  color: black;
+  border: 1px solid black;
+}
+.a-button:hover {
+  color: black;
+  border: 1px solid black;
+}
+.sq1__button {
+  margin: 0px 0 70px 0;
+}
+b {
+  color: #33c3f0;
+  font-weight: normal;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+}
+.titles__h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.titles__h2 {
+  font-size: 16px;
+}
+#abstract {
+  background-image: url(../img/yin-yang.png), url(../img/triangulo5.svg), url(../img/triangulo6.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 130px 130px, contain, contain;
+  background-position: center, left, right;
+  background-color: #383737;
+  padding: 20px;
+  color: lightgrey;
+}
+.abstract-arrow {
+  text-align: center;
+}
+.abstract-arrow__img {
+  width: 25px;
+  padding: 20px 0 0 0;
+  /**/
+}
+.squares {
+  display: flex;
+  width: 100%;
+}
+.sq1 {
+  width: 33.33%;
+  padding: 50px 20px;
+  /**/
+}
+.sq1:nth-child(1) {
+  background-color: #ADCCCC;
+  background-image: url(../img/sqimg.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom right;
+}
+.sq1:nth-child(2) {
+  background-color: #A3E6E6;
+  background-image: url(../img/sqimg2.png);
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-position: bottom right;
+}
+.sq1:nth-child(3) {
+  background-color: #ADCCCC;
+  background-image: url(../img/sqimg3.png);
+  background-repeat: no-repeat;
+  background-size: 44%;
+  background-position: bottom right;
+}
+.sq1__txt__h3 {
+  font-size: 25px;
+}
+button {
+  border: 1px solid grey;
+  color: grey;
+}
+button:hover {
+  border: 1px solid black;
+  color: black;
+}
+.sq2 {
+  width: 50%;
+  padding: 50px 20px;
+}
+.sq2:nth-child(1) {
+  background-color: #F7F7F7;
+  background-image: url(../img/med.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: center;
+}
+.sq2:nth-child(2) {
+  background-color: #EAEAEA;
+  background-image: url(../img/face.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+}
+.sq2__txt__h4 {
+  font-size: 24px;
+}
+.sq2__txt__div__2__button {
+  padding: 70px 0 0 0;
+}
+#dir {
+  display: flex;
+  background-color: #383737;
+  padding: 50px 20px;
+  color: white;
+
+  background-image: url(../img/triangulo7.svg), url(../img/triangulo8.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left top, right top;
+}
+.dir-text__h5 {
+  font-size: 22px;
+}
+.dir-text__h5--line {
+  font-size: 22px;
+  border-top: 1px solid #777676;
+  padding-top: 20px;
+}
+.dir-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-right: 1%;
+}
+.dir-text__p {
+  font-size: 14px;
+}
+.dir-map {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-left: 1%;
+}
+.dir-map__inframe {
+  width: 100%;
+  height: 100%;
+}
+#faq {
+  background-image: url(../img/question.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
+  padding: 50px 20px;
+}
+.faq-title__h4 {
+  font-size: 25px;
+}
+.faq-qs {
+  display: flex;
+}
+.faqu-qs-sq {
+  width: 25%;
+  padding: 0 2%;
+}
+.faqu-qs-sq:nth-child(1) {
+  padding-left: 0;
+  border-right: 1px solid lightgrey;
+}
+.faqu-qs-sq:nth-child(2) {
+  border-right: 1px solid lightgrey;
+}
+.faqu-qs-sq:nth-child(4) {
+  padding-right: 0;
+  border-left: 1px solid lightgrey;
+}
+.faqu-qs-sq__h5 {
+  font-size: 18px;
+}
+.faq-bottom {
+  padding: 1% 2% 70px 2%;
+}
+.dir-text__a {
+  display: none;
+}
+
+/**/
+
+@media (max-width: 950px) {
+  #dir {
+    background-image: none;
+  }
+  .dir-text {
+    width: auto;
+  }
+}
+
+@media (max-width: 860px) {
+  .tri, .tri2 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .tri3, .tri4, .portrait {
+    display: none;
+  }
+  .titles {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .squares {
+    display: block;
+  }
+  .sq1, .sq2 {
+    width: auto;
+  }
+  .faq-qs {
+    display: block;
+  }
+  .faqu-qs-sq {
+    width: auto;
+  }
+  .faqu-qs-sq:nth-child(1) {
+    border-right: 0;
+    padding: 0;
+  }
+  .faqu-qs-sq:nth-child(2) {
+    border-right: 0;
+    padding: 0;
+  }
+  .faqu-qs-sq:nth-child(3) {
+    border-left: 0;
+    padding: 0;
+  }
+  .faqu-qs-sq:nth-child(4) {
+    border-left: 0;
+    padding: 0;
+  }
+  #dir {
+    display: block;
+  }
+  .dir-map {
+    display: block;
+    height: 400px;
+    width: auto;
+    padding-left: 0;
+    padding: 50px 0 20px 0;
+  }
+  #abstract {
+    background-image: url(../img/yin-yang.png);
+    background-repeat: no-repeat;
+    background-size: 130px 130px;
+    background-position: center;
+  }
+  .sq2:nth-child(1) {
+    background-size: 80%;
+  }
+  .sq2:nth-child(2) {
+    background-size: 80%;
+  }
+  #faq {
+    background-size: 70%;
+  }
+  .a-button-div--call {
+    display: block;
+  };
+}
