@@ -193,12 +193,14 @@ button:hover {
 }
 .sq2__txt__div__1__1--half {
   display: flex;
+  flex-direction: column;
   width: 50%;
   height: 100px;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px 0px;
 }
 .sq2__txt__div__1__1--half:first-child {
   border-right: 1px solid #BFBFBF;
