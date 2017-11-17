@@ -152,7 +152,7 @@ b {
 #abstract {
   background-image: url(../img/yinyang.png);
   background-repeat: no-repeat;
-  background-size: 14%;
+  background-size: 200px;
   background-position: center;
 }
 .sq1__txt__h3 {
@@ -350,12 +350,6 @@ button:hover {
     width: auto;
     padding-left: 0;
     padding: 50px 0 20px 0;
-  }
-  #abstract {
-    background-image: url(../img/yin-yang.png);
-    background-repeat: no-repeat;
-    background-size: 130px 130px;
-    background-position: center;
   }
   .sq2:nth-child(1) {
     background-size: 80%;
