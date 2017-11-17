@@ -149,6 +149,12 @@ b {
   background-size: 64%;
   background-position: bottom right;
 }
+#abstract {
+  background-image: url(../img/yinyang.png);
+  background-repeat: no-repeat;
+  background-size: 14%;
+  background-position: center;
+}
 .sq1__txt__h3 {
   font-size: 25px;
 }
