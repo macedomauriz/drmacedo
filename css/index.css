@@ -130,24 +130,12 @@ b {
 }
 .sq1:nth-child(1) {
   background-color: #ADCCCC;
-  background-image: url(../img/sqimg.png);
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: bottom right;
 }
 .sq1:nth-child(2) {
   background-color: #A3E6E6;
-  background-image: url(../img/sqimg2.png);
-  background-repeat: no-repeat;
-  background-size: 33%;
-  background-position: bottom right;
 }
 .sq1:nth-child(3) {
   background-color: #ADCCCC;
-  background-image: url(../img/sqimg3.png);
-  background-repeat: no-repeat;
-  background-size: 64%;
-  background-position: bottom right;
 }
 #abstract {
   background-image: url(../img/yinyang.png);
@@ -172,17 +160,15 @@ button:hover {
 }
 .sq2:nth-child(1) {
   background-color: #EFE5DA;
-  background-image: url(../img/med.png);
-  background-repeat: no-repeat;
-  background-size: 45%;
-  background-position: center;
 }
 .sq2:nth-child(2) {
   background-color: #E2E0E2;
-  background-image: url(../img/face.png);
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: center;
+}
+.squares--ozono .sq2:nth-child(1) {
+  background-color: #D6E6EF;
+}
+.squares--ozono .sq2:nth-child(2) {
+  background-color: #C4DCE8;
 }
 .sq2__txt__h4 {
   font-size: 24px;
@@ -350,15 +336,6 @@ button:hover {
     width: auto;
     padding-left: 0;
     padding: 50px 0 20px 0;
-  }
-  .sq2:nth-child(1) {
-    background-size: 80%;
-  }
-  .sq2:nth-child(2) {
-    background-size: 80%;
-  }
-  #faq {
-    background-size: 70%;
   }
   .a-button-div--call {
     display: block;
